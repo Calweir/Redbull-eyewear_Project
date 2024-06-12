@@ -1,0 +1,37 @@
+.modalContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.loginLogo {
+  margin: 0 auto;
+}
+
+.loginInput {
+  width: 80%;
+  margin-right: 4em;
+}
+
+.loginLabel {
+  font-size: 1.4em;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.loginButton {
+  display: flex !important;
+  justify-content: center !important;
+  background-color: rgb(5, 33, 82) !important;
+  border: none !important;
+  font-size: 1.2em;
+}
+
+.errors {
+  margin-top: 0.3em;
+  text-decoration: underline;
+  color: rgb(5, 33, 82);
+}
