@@ -1,0 +1,120 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.divSlideshow {
+  width: 50%;
+}
+
+.homeIntro {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.homeIntro h3 {
+  font-size: 3em;
+  width: 40%;
+  margin-top: 3em;
+  margin-left: 1em;
+}
+
+.sliders {
+  width: 100%;
+}
+
+.sliders img {
+  width: 80%;
+  height: 500px;
+  margin-top: 8em;
+  margin-left: 6em;
+}
+
+.dakotaImageContainer {
+  background: linear-gradient(to bottom right, rgb(207, 184, 5) 45%, rgb(5, 33, 82) 55%);
+  border-radius: 20px;
+  width: 90%;
+  margin: 15em auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 0.3em;
+}
+
+.dakotaImageContainer h3 {
+  margin-top: 12em;
+}
+
+em {
+  color: rgb(173, 6, 6);
+  font-size: 1.2em;
+}
+
+.slick-dots {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  margin-right: 6em;
+}
+
+.flyingbullContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flyingbullContainer h3 {
+  width: 45%;
+  margin-top: 5em;
+  font-size: 2em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background: rgb(5, 33, 82);
+  margin-top: 12em;
+  border-radius: 10px 10px 0 0;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  margin: 0.1em;
+}
+
+.footerLogo {
+  color: white;
+  font-size: 3em;
+}
+
+.footerLogo img {
+  margin-bottom: 0.2em;
+}
+
+.footerLogo h4 {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+li {
+  text-decoration: none;
+  color: white;
+
+}
+
+.footerList a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerList a:hover {
+  text-decoration: underline 2px rgb(207, 184, 5);
+}
+
+.footerImage {
+  margin-top: auto;
+  margin-bottom: 2em;
+}
